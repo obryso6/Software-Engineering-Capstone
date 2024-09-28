@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BAFFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_excursion_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Excursion Name"
+        android:backgroundTint="#B3A024"
+        android:fontFamily="@font/baloo_thambi"
+        android:hint="Enter excursion name" />
+
+
+    <EditText
+        android:id="@+id/editText_excursion_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B3A024"
+        android:fontFamily="@font/baloo_thambi"
+        android:hint="Enter excursion date (DD-MM-YYYY)"
+        android:inputType="date" />
+
+</LinearLayout>
+

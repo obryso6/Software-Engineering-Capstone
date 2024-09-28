@@ -1,0 +1,32 @@
+@startuml
+class User {
+    int id
+    String username
+    String email
+    String password
+    login()
+    logout()
+}
+
+class Vacation {
+    int vacationId
+    String vacationName
+    String startDate
+    String endDate
+    String hotel
+    addExcursion()
+    removeExcursion()
+}
+
+class Excursion {
+    int excursionId
+    String excursionName
+    String excursionDate
+    int vacationId
+    setExcursionDate()
+    getExcursionDetails()
+}
+
+User "1" --> "0..*" Vacation : manages
+Vacation "1" --> "0..*" Excursion : contains
+@enduml

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText_hotel_name" type="id" />
+    <item name="editText_vacation_title" type="id" />
+    <item name="editText_start_date" type="id" />
+    <item name="editText_end_date" type="id" />
+    <item name="textView_excursion_name" type="id" />
+    <item name="action_update_excursion" type="id" />
+</resources>

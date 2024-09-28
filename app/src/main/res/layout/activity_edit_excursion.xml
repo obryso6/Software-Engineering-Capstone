@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BAC9C7B8"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_excursion_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B3A024"
+        android:hint="Excursion Name" />
+
+    <EditText
+        android:id="@+id/editText_excursion_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B3A024"
+        android:hint="Excursion Date (DD-MM-YYYY)" />
+
+    <Button
+        android:id="@+id/button_update_excursion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E3336"
+        android:text="Update Excursion" />
+
+</LinearLayout>
